@@ -1,2 +1,2 @@
 # Sentiment Analysis
-readme
+Utilized Sanders twitter dataset to train model.
