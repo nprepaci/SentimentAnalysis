@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sentimentLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    //you will need to register for a twitter developer account and replace my keys with your own keys
     let swifter = Swifter(consumerKey: SecretConstants.apiKey, consumerSecret: SecretConstants.secretApiKey)
     
     override func viewDidLoad() {

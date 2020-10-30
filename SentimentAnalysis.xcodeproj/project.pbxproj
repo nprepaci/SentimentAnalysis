@@ -16,7 +16,6 @@
 		7CB389DD254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CB389DC254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel */; };
 		7CB389F7254BB91C00C706A6 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB389E8254BB8EA00C706A6 /* SwifteriOS.framework */; };
 		7CB389F8254BB91C00C706A6 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB389E8254BB8EA00C706A6 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CB389FF254BC2CE00C706A6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB389FE254BC2CE00C706A6 /* Info.plist */; };
 		7CB38A01254BC2F600C706A6 /* SecretConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB38A00254BC2F600C706A6 /* SecretConstants.swift */; };
 /* End PBXBuildFile section */
 
@@ -255,7 +254,6 @@
 			files = (
 				7C953FDE254A5DAD00C12F2E /* LaunchScreen.storyboard in Resources */,
 				7C953FDB254A5DAD00C12F2E /* Assets.xcassets in Resources */,
-				7CB389FF254BC2CE00C706A6 /* Info.plist in Resources */,
 				7C953FD9254A5DAB00C12F2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
