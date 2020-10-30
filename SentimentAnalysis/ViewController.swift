@@ -24,5 +24,15 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         
     }
+    
+    
+    func searchTweet() {
+        swifter.searchTweet(using: textField) { (results, metadata) in
+            print(results)
+        } failure: { (error) in
+            print("There was an errror with the twitter API request \(error)")
+        }
+
+    }
 }
 
