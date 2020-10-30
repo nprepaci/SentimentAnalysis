@@ -16,7 +16,8 @@
 		7CB389DD254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CB389DC254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel */; };
 		7CB389F7254BB91C00C706A6 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB389E8254BB8EA00C706A6 /* SwifteriOS.framework */; };
 		7CB389F8254BB91C00C706A6 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB389E8254BB8EA00C706A6 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CB389FB254BBD3A00C706A6 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB389FA254BBD3A00C706A6 /* Secret.plist */; };
+		7CB389FF254BC2CE00C706A6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB389FE254BC2CE00C706A6 /* Info.plist */; };
+		7CB38A01254BC2F600C706A6 /* SecretConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB38A00254BC2F600C706A6 /* SecretConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +82,8 @@
 		7C953FDD254A5DAD00C12F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB389DC254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		7CB389DF254BB8EA00C706A6 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../../Downloads/Swifter-master/Swifter.xcodeproj"; sourceTree = "<group>"; };
-		7CB389FA254BBD3A00C706A6 /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
+		7CB389FE254BC2CE00C706A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB38A00254BC2F600C706A6 /* SecretConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +122,8 @@
 				7C953FD1254A5DAA00C12F2E /* AppDelegate.swift */,
 				7C953FD3254A5DAA00C12F2E /* SceneDelegate.swift */,
 				7C953FD5254A5DAA00C12F2E /* ViewController.swift */,
-				7CB389FA254BBD3A00C706A6 /* Secret.plist */,
+				7CB38A00254BC2F600C706A6 /* SecretConstants.swift */,
+				7CB389FE254BC2CE00C706A6 /* Info.plist */,
 				7C953FD7254A5DAA00C12F2E /* Main.storyboard */,
 				7C953FDA254A5DAD00C12F2E /* Assets.xcassets */,
 				7C953FDC254A5DAD00C12F2E /* LaunchScreen.storyboard */,
@@ -250,9 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB389FB254BBD3A00C706A6 /* Secret.plist in Resources */,
 				7C953FDE254A5DAD00C12F2E /* LaunchScreen.storyboard in Resources */,
 				7C953FDB254A5DAD00C12F2E /* Assets.xcassets in Resources */,
+				7CB389FF254BC2CE00C706A6 /* Info.plist in Resources */,
 				7C953FD9254A5DAB00C12F2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +271,7 @@
 				7C953FD2254A5DAA00C12F2E /* AppDelegate.swift in Sources */,
 				7CB389DD254A75AC00C706A6 /* TweetSentimentClassifier.mlmodel in Sources */,
 				7C953FD4254A5DAA00C12F2E /* SceneDelegate.swift in Sources */,
+				7CB38A01254BC2F600C706A6 /* SecretConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
