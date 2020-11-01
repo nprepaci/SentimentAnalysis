@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     
     func searchTweet() {
-        swifter.searchTweet(using: "@apple") { (results, metadata) in
+        swifter.searchTweet(using: "@apple", lang: "en", count: 100) { (results, metadata) in
             print(results)
         } failure: { (error) in
             print("There was an errror with the twitter API request \(error)")
